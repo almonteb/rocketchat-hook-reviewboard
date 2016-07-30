@@ -1,0 +1,143 @@
+{
+    "close_type": "submitted",
+    "review_request": {
+        "commit_id": null,
+        "last_updated": "2016-07-28T05:23:06Z",
+        "target_people": [
+            {
+                "href": "http://localhost/api/users/admin/",
+                "method": "GET",
+                "title": "admin"
+            }
+        ],
+        "depends_on": [
+            {
+                "href": "http://localhost/api/review-requests/1/",
+                "method": "GET",
+                "title": "test"
+            }
+        ],
+        "description_text_type": "markdown",
+        "issue_resolved_count": 0,
+        "ship_it_count": 0,
+        "close_description_text_type": "plain",
+        "id": 1,
+        "links": {
+            "diffs": {
+                "href": "http://localhost/api/review-requests/1/diffs/",
+                "method": "GET"
+            },
+            "screenshots": {
+                "href": "http://localhost/api/review-requests/1/screenshots/",
+                "method": "GET"
+            },
+            "self": {
+                "href": "http://localhost/api/review-requests/1/",
+                "method": "GET"
+            },
+            "update": {
+                "href": "http://localhost/api/review-requests/1/",
+                "method": "PUT"
+            },
+            "last_update": {
+                "href": "http://localhost/api/review-requests/1/last-update/",
+                "method": "GET"
+            },
+            "reviews": {
+                "href": "http://localhost/api/review-requests/1/reviews/",
+                "method": "GET"
+            },
+            "file_attachments": {
+                "href": "http://localhost/api/review-requests/1/file-attachments/",
+                "method": "GET"
+            },
+            "draft": {
+                "href": "http://localhost/api/review-requests/1/draft/",
+                "method": "GET"
+            },
+            "diff_context": {
+                "href": "http://localhost/api/review-requests/1/diff-context/",
+                "method": "GET"
+            },
+            "submitter": {
+                "href": "http://localhost/api/users/admin/",
+                "method": "GET",
+                "title": "admin"
+            },
+            "changes": {
+                "href": "http://localhost/api/review-requests/1/changes/",
+                "method": "GET"
+            },
+            "delete": {
+                "href": "http://localhost/api/review-requests/1/",
+                "method": "DELETE"
+            }
+        },
+        "issue_dropped_count": 0,
+        "bugs_closed": [
+            "bug1",
+            "bug2"
+        ],
+        "testing_done": "testing done",
+        "branch": "",
+        "text_type": null,
+        "time_added": "2016-07-28T05:08:36Z",
+        "extra_data": {
+            "calculated_trophies": true
+        },
+        "public": true,
+        "status": "submitted",
+        "close_description": "",
+        "blocks": [
+            {
+                "href": "http://localhost/api/review-requests/1/",
+                "method": "GET",
+                "title": "test"
+            }
+        ],
+        "description": "description",
+        "repository": null,
+        "testing_done_text_type": "markdown",
+        "issue_open_count": 0,
+        "approved": false,
+        "url": "/r/1/",
+        "absolute_url": "http://localhost/r/1/",
+        "target_groups": [],
+        "summary": "test",
+        "changenum": null,
+        "approval_failure": "The review request has not been marked \"Ship It!\""
+    },
+    "event": "review_request_closed",
+    "closed_by": {
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "links": {
+            "muted_review_requests": {
+                "href": "http://localhost/api/users/admin/muted-review-requests/",
+                "method": "GET"
+            },
+            "watched": {
+                "href": "http://localhost/api/users/admin/watched/",
+                "method": "GET"
+            },
+            "self": {
+                "href": "http://localhost/api/users/admin/",
+                "method": "GET"
+            },
+            "api_tokens": {
+                "href": "http://localhost/api/users/admin/api-tokens/",
+                "method": "GET"
+            },
+            "archived_review_requests": {
+                "href": "http://localhost/api/users/admin/archived-review-requests/",
+                "method": "GET"
+            }
+        },
+        "url": "/users/admin/",
+        "email": "admin@example.com",
+        "avatar_url": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?d=mm",
+        "fullname": "",
+        "id": 1
+    }
+}

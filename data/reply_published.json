@@ -1,0 +1,48 @@
+{
+    "reply": {
+        "body_top": "aaaaaaaaaaaaa",
+        "extra_data": {},
+        "links": {
+            "diff_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/diff-comments/",
+                "method": "GET"
+            },
+            "file_attachment_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/file-attachment-comments/",
+                "method": "GET"
+            },
+            "self": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/",
+                "method": "GET"
+            },
+            "update": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/",
+                "method": "PUT"
+            },
+            "screenshot_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/screenshot-comments/",
+                "method": "GET"
+            },
+            "user": {
+                "href": "http://localhost/api/users/admin/",
+                "method": "GET",
+                "title": "admin"
+            },
+            "delete": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/2/",
+                "method": "DELETE"
+            }
+        },
+        "timestamp": "2016-07-28T05:24:53Z",
+        "public": true,
+        "text_type": null,
+        "body_bottom": "",
+        "body_top_text_type": "markdown",
+        "id": 2,
+        "body_bottom_text_type": "plain"
+    },
+    "screenshot_comments": [],
+    "diff_comments": [],
+    "event": "reply_published",
+    "file_attachment_comments": []
+}

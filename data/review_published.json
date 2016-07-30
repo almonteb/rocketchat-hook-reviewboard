@@ -1,0 +1,53 @@
+{
+    "event": "review_published",
+    "review": {
+        "body_top": "asdfasdf",
+        "ship_it": false,
+        "extra_data": {},
+        "links": {
+            "diff_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/diff-comments/",
+                "method": "GET"
+            },
+            "file_attachment_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/file-attachment-comments/",
+                "method": "GET"
+            },
+            "self": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/",
+                "method": "GET"
+            },
+            "update": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/",
+                "method": "PUT"
+            },
+            "screenshot_comments": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/screenshot-comments/",
+                "method": "GET"
+            },
+            "user": {
+                "href": "http://localhost/api/users/admin/",
+                "method": "GET",
+                "title": "admin"
+            },
+            "replies": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/replies/",
+                "method": "GET"
+            },
+            "delete": {
+                "href": "http://localhost/api/review-requests/1/reviews/1/",
+                "method": "DELETE"
+            }
+        },
+        "text_type": null,
+        "public": true,
+        "timestamp": "2016-07-28T05:24:01Z",
+        "body_bottom": "",
+        "body_top_text_type": "markdown",
+        "id": 1,
+        "body_bottom_text_type": "plain"
+    },
+    "diff_comments": [],
+    "screenshot_comments": [],
+    "file_attachment_comments": []
+}
